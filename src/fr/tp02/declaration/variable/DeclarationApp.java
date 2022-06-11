@@ -20,11 +20,11 @@ public class DeclarationApp {
 		System.out.println(d);
 		System.out.println(c);
 		System.out.println(bool);
-		
+
 		System.out.println("---------------------------------------------------");
-		
+
 		// Declaration of a variable
-		
+
 		String randomString = "Voici le résultat d'un calcul : \n1+5=6.";
 		System.out.println(randomString);
 	}

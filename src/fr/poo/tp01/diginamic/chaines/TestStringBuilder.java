@@ -13,7 +13,7 @@ public class TestStringBuilder {
 		} while (num < 100001);
 		long fin = System.currentTimeMillis();
 		System.out.println("Temps écoulé en millisecondes :" + (fin - debut));
-		
+
 		System.out.println("Chronométrage sans StringBuilder");
 		long debut2 = System.currentTimeMillis();
 		String string = "";
@@ -24,7 +24,6 @@ public class TestStringBuilder {
 		System.out.println("Temps écoulé en millisecondes :" + (fin2 - debut2));
 		System.out.println("------------------------------------------------");
 		System.out.println("Le Temps écoulé est plus long sans StringBuilder");
-		
 
 	}
 
